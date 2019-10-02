@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suitenameshoot]">
+  <test name="testnamevj(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <exclude name="retest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testnggpackgee.testnggcls">
+        <methods>
+          <include name="Functionalityies"/>
+        </methods>
+      </class> <!-- testnggpackgee.testnggcls -->
+    </classes>
+  </test> <!-- testnamevj(failed) -->
+</suite> <!-- Failed suite [Suitenameshoot] -->
