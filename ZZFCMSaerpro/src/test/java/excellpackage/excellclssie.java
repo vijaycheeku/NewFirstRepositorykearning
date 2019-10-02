@@ -10,18 +10,15 @@ public class excellclssie
 {
 public static void inputss(WebDriver driver) throws Exception
 {
-		try {
 			excellclssie obj1=new excellclssie();
 			String UN=obj1.readingexcel(1, 0);
 			String PWD=obj1.readingexcel(1, 1);
 			driver.findElement(By.id("txtusername")).sendKeys(UN);
 			driver.findElement(By.id("txtpassword")).sendKeys(PWD);
 			driver.findElement(By.name("btnSubmit")).click();
-		} 
-		catch (Exception e) {
-			
-			throw e;
-		}
+		 
+		
+		
 }	
 	
 	public String readingexcel(int r,int c) throws Exception
